@@ -9,16 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The circuit is a voltage-controlled ring oscillator (VCRO) in which transmission gates regulate the delay of each stage, thereby controlling the oscillation frequency. It is based on the paper:
+The circuit is a voltage-controlled ring oscillator (VCRO) using transmission gates as the delay control element. It is based on the paper:
 
 Retdian, N., Takagi, S., & Fujii, N. (2002). Voltage controlled ring oscillator with wide tuning range and fast voltage swing. 2002 IEEE Asia-Pacific Conference on ASIC, AP-ASIC 2002 - Proceedings, 201–204. https://doi.org/10.1109/APASIC.2002.1031567.
 
 ## How to test
 
 Pinouts:
--Input pins: v_control_n, v_control_p
--Output pin: out
+- input pins: v_control_n, v_control_p
+- output pin: out
 
 ## External hardware
 
-To test the circuit, apply control voltages to v_control_n and v_control_p such that their sum equals the supply voltage (1.8 V).
+To test, apply control voltage v_control_n and v_control_p, where the sum of the two voltages should ideally be equal to the supply voltage of 1.8V.
